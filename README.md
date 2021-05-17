@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PubHub 🕮 <img align="right" width="300" height="200" src="WebContent/resources/imgs/ebook3.jpg">
 ### Book Publishing System
 <br>
@@ -7,10 +6,6 @@
 </a>
 
 ---
-=======
-# PubHub 🕮  <img align="right" width="300" height="200" src="WebContent/resources/imgs/ebook3.jpg">
-Book Publishing System
->>>>>>> cdb2866658917b9b17d2a340e1f33a814b00d5fb
 
 A self-publishing platform that allows anyone to write, publish, and sell their own books.
 

@@ -31,46 +31,45 @@ git clone https://github.com/jtanaeki/PubHub.git
 ```
 
 ### Tables in Database
-![Image of Books Table](database_files/books-table.png)\
+![Image of Books Table](database_files/books-table.png)
+
 ![Image of Books_Tags Table](database_files/books_tags-table.png)
 
 ## Running the Application
 The following instructions will help you get the program running via Eclipse.
 
 ### Importing the Project
-(IMAGES AT https://www.codejava.net/ides/eclipse/import-existing-projects-into-eclipse-workspace)
+
 - The Import function can be accessed in three ways:
   - The most convenient and quickest way: **File > Import…** (shortcut: **Alt + F + I**):
 
-        (IMAGE)
+       ![image](https://user-images.githubusercontent.com/55217672/118418913-5e5ea300-b688-11eb-8ce7-314bf4d58332.png)
 
   - Right click on any blank space in *Package Explorer* view, select **Import…** from the context menu:
 
-        (IMAGE)
+       ![image](https://user-images.githubusercontent.com/55217672/118419010-c90fde80-b688-11eb-8b66-e87a79240128.png)
 
   - Right click on any blank space in Project Explorer view, then select **Import > Import…** from the context menu:
 
-        (IMAGE)
+       ![image](https://user-images.githubusercontent.com/55217672/118419021-d4fba080-b688-11eb-9536-fd28a18a5957.png)
 
 - The **Import** wizard should open:
 
-       (IMAGE)
+    ![image](https://user-images.githubusercontent.com/55217672/118419042-e5ac1680-b688-11eb-8fc4-791adebada69.png)
 
-- Under the *General* folder, select *Existing Projects into Workspace* and click **Next**. The next screen, **Import Projects**, appears:
-
-       (IMAGE)
+- Under the *General* folder, select *Existing Projects into Workspace* and click **Next**. The next screen, **Import Projects**, appears.       
 
 - If the application was downloaded as a zip file, click **Select archive file** and click the **Browse** button to locate the zip file. Make sure the project is selected and click **Finish**:
 
-       (IMAGE)
+    ![image](https://user-images.githubusercontent.com/55217672/118419097-0c6a4d00-b689-11eb-879d-4f1f29e1af4d.png)
 
 - If the application was NOT downloaded as a zip file, click **Select root directory** and click the **Browse** button to find the project’s directory path. Make sure the project and the *Copy projects into workspace* option is selected:
 
-       (IMAGE)
+    ![image](https://user-images.githubusercontent.com/55217672/118419200-610dc800-b689-11eb-8629-ee35afe1a925.png)
 
 - The archive will be extracted and the files will be copied into the workspace. The imported project should show in the *Project Explorer/Package Explorer* view:
 
-       (IMAGE)
+    ![image](https://user-images.githubusercontent.com/55217672/118419242-6ec34d80-b689-11eb-8fb6-32f9cb417273.png)
 
 ## Deployment
 ### Adding JRE System Library to Java Build Path

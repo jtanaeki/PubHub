@@ -16,10 +16,10 @@ The following instructions will help you set up a local development environment,
 Before building and testing the application, you must make sure to have the following installed:
 - The [latest version of Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) (Using JRE 1.8, rather than JDK, maybe more suitable for this application to run on WildFly)
 - Any IDE that supports JRE development, such as the [latest version of Eclipse](https://www.eclipse.org/downloads/packages/) (Download and install Eclipse IDE for Enterprise Java and Web Developers)
-- Application Server, such as the [latest version of WildFly](https://www.wildfly.org/downloads/) (Please read [*Java Development Environment Setup*](Java%Development%Environment%Setup.pdf) to see how to integrate Wildfly with Eclipse)
+- Application Server, such as the [latest version of WildFly](https://www.wildfly.org/downloads/) (Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf) to see how to integrate Wildfly with Eclipse)
 - Database, such as the [latest version of PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-For further instruction on setting up your environment for Java development, read [*Java Development Environment Setup*](Java%Development%Environment%Setup.pdf).
+For further instruction on setting up your environment for Java development, read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf).
 
 \* *Please keep in mind that these instructions were constructed around 2016.*
 
@@ -85,7 +85,7 @@ If you don't see the JRE System Library with JRE 1.8 in the Java Build Path, und
        (IMAGE)
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
-If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%Development%Environment%Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.
+If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.
 
 ### Setting up the Database
-Please read [*Java Development Environment Setup*](Java%Development%Environment%Setup.pdf) to see how to set up PostgreSQL. Follow the instructions in the *Installing a Database (PostgreSQL)* section. Create [these tables](https://github.com/jtanaeki/PubHub#tables-in-database) in the database and fill in random values.
+Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf) to see how to set up PostgreSQL. Follow the instructions in the *Installing a Database (PostgreSQL)* section. Create [these tables](https://github.com/jtanaeki/PubHub#tables-in-database) in the database and fill in random values.

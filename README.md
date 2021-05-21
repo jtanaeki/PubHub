@@ -75,14 +75,13 @@ The following instructions will help you get the program running via Eclipse.
 ### Adding JRE System Library to Java Build Path
 If you don't see the JRE System Library with JRE 1.8 in the Java Build Path, under the project name, in the Package Explorer tab, then it must be added.
 
-(IMAGES IN PUBHUB_SCREENSHOTS FOLDER ON DESKTOP)
 - Right-click the project folder and click *Properties*
 
-       (IMAGE)
+    ![image](https://user-images.githubusercontent.com/55217672/118743882-42dad000-b821-11eb-85a2-80f93a5c02c6.png)
 
 - Click *Java Build Path* in the left-hand side of the dialog box, then click the *Libraries* tab
 
-       (IMAGE)
+    ![image](https://user-images.githubusercontent.com/55217672/118744007-87666b80-b821-11eb-94da-b79a679cb88b.png)
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

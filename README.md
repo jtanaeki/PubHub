@@ -77,11 +77,17 @@ If you don't see the JRE System Library with JRE 1.8 in the Java Build Path, und
 
 - Right-click the project folder and click *Properties*
 
-    ![image](https://user-images.githubusercontent.com/55217672/118743882-42dad000-b821-11eb-85a2-80f93a5c02c6.png)
+    ![image](https://user-images.githubusercontent.com/55217672/119072766-127a6980-b9ba-11eb-941f-f91fb74b9c18.png)
 
-- Click *Java Build Path* in the left-hand side of the dialog box, then click the *Libraries* tab
+- Click *Java Build Path* on the left-hand side of the dialog box, then click the *Libraries* tab
 
-    ![image](https://user-images.githubusercontent.com/55217672/118744007-87666b80-b821-11eb-94da-b79a679cb88b.png)
+    ![image](https://user-images.githubusercontent.com/55217672/119073453-6043a180-b9bb-11eb-94d7-9d3d50b1add5.png)<br /><br /><br /><br /><br /><br /><br /><br />
+    
+...<br /><br /><br /><br /><br /><br /><br /><br />
+
+- Click *Java Compiler* on the left-hand side of the dialog box, and change the Compiler compliance level to 1.8
+
+    ![image](https://user-images.githubusercontent.com/55217672/119073496-74879e80-b9bb-11eb-9422-d206939ed155.png)
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

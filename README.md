@@ -43,51 +43,57 @@ The following instructions will help you get the program running via Eclipse.
 - The Import function can be accessed in three ways:
   - The most convenient and quickest way: **File > Import…** (shortcut: **Alt + F + I**):
 
-       ![image](https://user-images.githubusercontent.com/55217672/118418913-5e5ea300-b688-11eb-8ce7-314bf4d58332.png)
+       ![image](https://user-images.githubusercontent.com/55217672/118418913-5e5ea300-b688-11eb-8ce7-314bf4d58332.png)<br /><br />
 
   - Right click on any blank space in *Package Explorer* view, select **Import…** from the context menu:
 
-       ![image](https://user-images.githubusercontent.com/55217672/118419010-c90fde80-b688-11eb-8b66-e87a79240128.png)
+       ![image](https://user-images.githubusercontent.com/55217672/118419010-c90fde80-b688-11eb-8b66-e87a79240128.png)<br /><br />
 
-  - Right click on any blank space in Project Explorer view, then select **Import > Import…** from the context menu:
+  - Right click on any blank space in _Project Explorer_ view, then select **Import > Import…** from the context menu:
 
-       ![image](https://user-images.githubusercontent.com/55217672/118419021-d4fba080-b688-11eb-9536-fd28a18a5957.png)
+       ![image](https://user-images.githubusercontent.com/55217672/118419021-d4fba080-b688-11eb-9536-fd28a18a5957.png)<br /><br />
 
-- The **Import** wizard should open:
+- The _Import_ wizard should open:
 
-    ![image](https://user-images.githubusercontent.com/55217672/118419042-e5ac1680-b688-11eb-8fc4-791adebada69.png)
+    ![image](https://user-images.githubusercontent.com/55217672/118419042-e5ac1680-b688-11eb-8fc4-791adebada69.png)<br /><br />
 
-- Under the *General* folder, select *Existing Projects into Workspace* and click **Next**. The next screen, **Import Projects**, appears.       
+- Under the *General* folder, select *Existing Projects into Workspace* and click **Next**. The next screen, _Import Projects_, appears.       
 
-- If the application was downloaded as a zip file, click **Select archive file** and click the **Browse** button to locate the zip file. Make sure the project is selected and click **Finish**:
+- If the application was downloaded as a zip file, click _Select archive file_ and click the **Browse** button to locate the zip file. Make sure the project is selected and click **Finish**:
 
-    ![image](https://user-images.githubusercontent.com/55217672/118419097-0c6a4d00-b689-11eb-879d-4f1f29e1af4d.png)
+    ![image](https://user-images.githubusercontent.com/55217672/118419097-0c6a4d00-b689-11eb-879d-4f1f29e1af4d.png)<br /><br />
 
-- If the application was NOT downloaded as a zip file, click **Select root directory** and click the **Browse** button to find the project’s directory path. Make sure the project and the *Copy projects into workspace* option is selected:
+- If the application was NOT downloaded as a zip file, click _Select root directory_ and click the **Browse** button to find the project’s directory path. Make sure the project and the *Copy projects into workspace* option is selected:
 
-    ![image](https://user-images.githubusercontent.com/55217672/118419200-610dc800-b689-11eb-8629-ee35afe1a925.png)
+    ![image](https://user-images.githubusercontent.com/55217672/118419200-610dc800-b689-11eb-8629-ee35afe1a925.png)<br /><br />
 
 - The archive will be extracted and the files will be copied into the workspace. The imported project should show in the *Project Explorer/Package Explorer* view:
 
-    ![image](https://user-images.githubusercontent.com/55217672/118419242-6ec34d80-b689-11eb-8fb6-32f9cb417273.png)
+    ![image](https://user-images.githubusercontent.com/55217672/118419242-6ec34d80-b689-11eb-8fb6-32f9cb417273.png)<br /><br />
 
 ## Deployment
 ### Adding JRE System Library to Java Build Path
-If you don't see the JRE System Library with JRE 1.8 in the Java Build Path, under the project name, in the Package Explorer tab, then it must be added.
+If you don't see the JRE System Library with _JRE 1.8_ in the Java Build Path, under the project name, in the _Package Explorer_ tab, then it must be added.
 
-- Right-click the project folder and click *Properties*
+- Right-click the project folder and click **Properties**
 
-    ![image](https://user-images.githubusercontent.com/55217672/119072766-127a6980-b9ba-11eb-941f-f91fb74b9c18.png)
+    ![image](https://user-images.githubusercontent.com/55217672/119072766-127a6980-b9ba-11eb-941f-f91fb74b9c18.png)<br /><br />
 
-- Click *Java Build Path* on the left-hand side of the dialog box, then click the *Libraries* tab
+- Select *Java Build Path* on the left-hand side of the dialog box, then click the *Libraries* tab. 
+- Select _JRE System Library_, then click **Edit**.
 
-    ![image](https://user-images.githubusercontent.com/55217672/119073453-6043a180-b9bb-11eb-94d7-9d3d50b1add5.png)<br /><br /><br /><br /><br /><br /><br /><br />
+    ![image](https://user-images.githubusercontent.com/55217672/119073453-6043a180-b9bb-11eb-94d7-9d3d50b1add5.png)<br /><br />
     
+- Select _Alternate JRE_, then click **Installed JREs**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119232258-9899cb80-baf2-11eb-97a5-ac95c7c491cb.png)<br /><br />
+    
+<br /><br /><br /><br /><br /><br /><br /><br />
 ...<br /><br /><br /><br /><br /><br /><br /><br />
 
-- Click *Java Compiler* on the left-hand side of the dialog box, and change the Compiler compliance level to 1.8
+- Select *Java Compiler* on the left-hand side of the dialog box, and change the _Compiler compliance level_ to **1.8**
 
-    ![image](https://user-images.githubusercontent.com/55217672/119073496-74879e80-b9bb-11eb-9422-d206939ed155.png)
+    ![image](https://user-images.githubusercontent.com/55217672/119073496-74879e80-b9bb-11eb-9422-d206939ed155.png)<br /><br />
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

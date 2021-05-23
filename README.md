@@ -88,6 +88,14 @@ If you don't see the JRE System Library with _JRE 1.8_ in the Java Build Path, u
 
     ![image](https://user-images.githubusercontent.com/55217672/119232258-9899cb80-baf2-11eb-97a5-ac95c7c491cb.png)<br /><br />
     
+- Click **Add** next to the list of JREs
+
+    ![image](https://user-images.githubusercontent.com/55217672/119275422-fad1f980-bbe2-11eb-879c-4da6f0c1929e.png)
+    
+- Make sure _Standard VM_ is selected and click **Next**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119277473-ee06d300-bbed-11eb-9733-e86af03babd1.png)
+    
 <br /><br /><br /><br /><br /><br /><br /><br />
 ...<br /><br /><br /><br /><br /><br /><br /><br />
 

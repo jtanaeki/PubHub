@@ -90,18 +90,35 @@ If you don't see the JRE System Library with _JRE 1.8_ in the Java Build Path, u
     
 - Click **Add** next to the list of JREs
 
-    ![image](https://user-images.githubusercontent.com/55217672/119275422-fad1f980-bbe2-11eb-879c-4da6f0c1929e.png)
+    ![image](https://user-images.githubusercontent.com/55217672/119275422-fad1f980-bbe2-11eb-879c-4da6f0c1929e.png)<br /><br />
     
 - Make sure _Standard VM_ is selected and click **Next**
 
-    ![image](https://user-images.githubusercontent.com/55217672/119277473-ee06d300-bbed-11eb-9733-e86af03babd1.png)
+    ![image](https://user-images.githubusercontent.com/55217672/119426337-04d52480-bcd7-11eb-8993-9e1b5c937518.png)<br /><br />
     
-<br /><br /><br /><br /><br /><br /><br /><br />
-...<br /><br /><br /><br /><br /><br /><br /><br />
+- Select the directory where the JRE is installed and click **Finish**
 
-- Select *Java Compiler* on the left-hand side of the dialog box, and change the _Compiler compliance level_ to **1.8**
+    ![image](https://user-images.githubusercontent.com/55217672/119427213-a8730480-bcd8-11eb-9bb7-32d278670296.png)<br /><br />
+    
+- Now that the JRE has been added, click **Apply and Close**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119427525-2c2cf100-bcd9-11eb-805b-e4d65d2e4745.png)<br /><br />
+    
+- Click the dropdown menu next to _Alternate JRE_, select the newly added JRE, then click **Finish**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119427900-ed4b6b00-bcd9-11eb-85ac-7c9beb2a201e.png)<br /><br />
+
+- Now that the JRE has been added to the Modulepath/Classpath, the compliance level must be modified. Select *Java Compiler* on the left-hand side of the dialog box. If prompted to save changes, click **Apply**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119429967-ea527980-bcdd-11eb-8302-3da98f27941a.png)<br /><br />
+
+-   Click the dropdown on the right and change the _Compiler compliance level_ to **1.8**
 
     ![image](https://user-images.githubusercontent.com/55217672/119073496-74879e80-b9bb-11eb-9422-d206939ed155.png)<br /><br />
+    
+- Click **Apply and Close**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119428291-96926100-bcda-11eb-8d20-2caa91d7b1f3.png)
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

@@ -39,7 +39,6 @@ git clone https://github.com/jtanaeki/PubHub.git
 The following instructions will help you get the program running via Eclipse.
 
 ### Importing the Project
-
 - The Import function can be accessed in three ways:
   - The most convenient and quickest way: **File > Import…** (shortcut: **Alt + F + I**):
 
@@ -121,7 +120,8 @@ If you don't see the JRE System Library with _JRE 1.8_ in the Java Build Path, u
     ![image](https://user-images.githubusercontent.com/55217672/119428291-96926100-bcda-11eb-8d20-2caa91d7b1f3.png)
     
 ### Adding _javax.servlet_ JAR File
-In order to compile the Java Servlets/Java Server Pages(JSP files), a _javax.servlet_ file must be added to the classpath. Please [download the zip jar file](http://www.java2s.com/Code/Jar/j/Downloadjavaxservlet30jar.htm), unzip, and extract the file.
+In order to compile the Java Servlets/Java Server Pages(JSP files), a _javax.servlet_ file must be added to the classpath. 
+- Please [download the zip jar file](http://www.java2s.com/Code/Jar/j/Downloadjavaxservlet30jar.htm), unzip, and extract the file.
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

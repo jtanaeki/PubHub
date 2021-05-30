@@ -121,7 +121,15 @@ If you don't see the JRE System Library with _JRE 1.8_ in the Java Build Path, u
     
 ### Adding _javax.servlet_ JAR File
 In order to compile the Java Servlets/Java Server Pages(JSP files), a _javax.servlet_ file must be added to the classpath. 
-- Please [download the zip jar file](http://www.java2s.com/Code/Jar/j/Downloadjavaxservlet30jar.htm), unzip, and extract the file.
+- Please [download the jar zip file](http://www.java2s.com/Code/Jar/j/Downloadjavaxservlet30jar.htm), unzip, and extract the file.
+- Right-click the project folder and click **Properties**
+
+    ![image](https://user-images.githubusercontent.com/55217672/119072766-127a6980-b9ba-11eb-941f-f91fb74b9c18.png)<br /><br />
+
+- Select *Java Build Path* on the left-hand side of the dialog box, then click the *Libraries* tab.
+- Click _Classpath_, then click _Add External JARs_
+    
+    ![image](https://user-images.githubusercontent.com/55217672/120088217-7be63080-c0bc-11eb-9ede-c1aaf739cf84.png)
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

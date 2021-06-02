@@ -127,9 +127,13 @@ In order to compile the Java Servlets/Java Server Pages(JSP files), a _javax.ser
     ![image](https://user-images.githubusercontent.com/55217672/119072766-127a6980-b9ba-11eb-941f-f91fb74b9c18.png)<br /><br />
 
 - Select *Java Build Path* on the left-hand side of the dialog box, then click the *Libraries* tab.
-- Click _Classpath_, then click _Add External JARs_
+- Click _Classpath_, then click **Add External JARs**
     
     ![image](https://user-images.githubusercontent.com/55217672/120088217-7be63080-c0bc-11eb-9ede-c1aaf739cf84.png)
+    
+- Select the extracted _javax.servlet_ jar file, then click **Apply and Close**
+
+    ![image](https://user-images.githubusercontent.com/55217672/120406292-813fb700-c318-11eb-97a2-b3d0e76a3c59.png)    
   
 ### Integrating the Application Server (Wildfly) with the IDE (Eclipse)
 If you have not done so yet, make sure Wildfly is set up on Eclipse for deployment. Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf). Follow the instructions in the *Integrating Your Application Server with Your IDE (JBoss Middleware)* section.

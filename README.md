@@ -143,10 +143,13 @@ Please read [*Java Development Environment Setup*](Java%20Development%20Environm
 
 ## Interface
 ### Home Page
+![image](https://user-images.githubusercontent.com/55217672/120939717-49a18800-c6e7-11eb-8b69-323a662a99c8.png)
 
 ### List of Published Books
+![image](https://user-images.githubusercontent.com/55217672/120939768-971df500-c6e7-11eb-91a2-6b9d105591bb.png)
 
 ### Publishing Page
+![image](https://user-images.githubusercontent.com/55217672/120939807-c92f5700-c6e7-11eb-9145-5f2953d06f64.png)
 
 ## Tools Used
 ### Servers

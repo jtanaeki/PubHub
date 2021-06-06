@@ -157,5 +157,6 @@ Please read [*Java Development Environment Setup*](Java%20Development%20Environm
 
 ### Languages & Frameworks
 - Frontend:
-- [HTML](), [CSS](), [JavaScript](), [jQuery](), [Bootstrap](), [Java Server Pages (JSPs)]()
+    - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [jQuery](https://api.jquery.com/), [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [JavaServer Pages (JSPs)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html)
 - Backend:
+    - [Java Servlets](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)

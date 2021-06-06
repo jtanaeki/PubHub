@@ -140,3 +140,22 @@ If you have not done so yet, make sure Wildfly is set up on Eclipse for deployme
 
 ### Setting up the Database
 Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf) to see how to set up PostgreSQL. Follow the instructions in the *Installing a Database (PostgreSQL)* section. Create [these tables](https://github.com/jtanaeki/PubHub#tables-in-database) in the database and fill in random values.
+
+## Interface
+### Home Page
+
+### List of Published Books
+
+### Publishing Page
+
+## Tools Used
+### Servers
+- [Wildfly](https://www.wildfly.org/)
+
+### Databases
+- [PostgreSQL](https://www.postgresql.org/)
+
+### Languages & Frameworks
+- Frontend:
+- [HTML](), [CSS](), [JavaScript](), [jQuery](), [Bootstrap](), [Java Server Pages (JSPs)]()
+- Backend:

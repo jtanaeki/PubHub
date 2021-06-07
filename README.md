@@ -163,3 +163,9 @@ Please read [*Java Development Environment Setup*](Java%20Development%20Environm
     - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [jQuery](https://api.jquery.com/), [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [JavaServer Pages (JSPs)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html)
 - Backend:
     - [Java Servlets](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)
+
+## Workflow (Functionalities)
+- The customer should be able to see a list of books, which includes the isbn number, title, author, publish date, and price
+- The customer should be able to download any book(s) from the list of published books and update the title, author, and/or price of any book(s)
+- The customer should be able to type in the text box and search for books from the list by any category
+- The author should be able to upload a PDF version of their book and publish it, adding it to the list of published books

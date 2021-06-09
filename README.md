@@ -141,6 +141,12 @@ If you have not done so yet, make sure Wildfly is set up on Eclipse for deployme
 ### Setting up the Database
 Please read [*Java Development Environment Setup*](Java%20Development%20Environment%20Setup.pdf) to see how to set up PostgreSQL. Follow the instructions in the *Installing a Database (PostgreSQL)* section. Create [these tables](https://github.com/jtanaeki/PubHub#tables-in-database) in the database and fill in random values.
 
+## Functionalities
+- The customer should be able to see a list of books, which includes the isbn number, title, author, publish date, and price
+- The customer should be able to download any book(s) from the list of published books and update the title, author, and/or price of any book(s)
+- The customer should be able to type in the text box and search for books from the list by any category
+- The author should be able to upload a PDF version of their book and publish it, adding it to the list of published books
+
 ## Interface
 ### Home Page
 ![image](https://user-images.githubusercontent.com/55217672/120939717-49a18800-c6e7-11eb-8b69-323a662a99c8.png)
@@ -163,9 +169,3 @@ Please read [*Java Development Environment Setup*](Java%20Development%20Environm
     - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [jQuery](https://api.jquery.com/), [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [JavaServer Pages (JSPs)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html)
 - Backend:
     - [Java Servlets](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)
-
-## Workflow (Functionalities)
-- The customer should be able to see a list of books, which includes the isbn number, title, author, publish date, and price
-- The customer should be able to download any book(s) from the list of published books and update the title, author, and/or price of any book(s)
-- The customer should be able to type in the text box and search for books from the list by any category
-- The author should be able to upload a PDF version of their book and publish it, adding it to the list of published books

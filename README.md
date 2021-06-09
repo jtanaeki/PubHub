@@ -169,3 +169,6 @@ Please read [*Java Development Environment Setup*](Java%20Development%20Environm
     - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [jQuery](https://api.jquery.com/), [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [JavaServer Pages (JSPs)](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html)
 - Backend:
     - [Java Servlets](https://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html)
+
+## How to Discuss and Contribute
+Some of the best ways to contribute are to try things out, file issues, join in design conversations, and make pull-requests. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before you begin for details on the [code of conduct](CODE_OF_CONDUCT.md), as well as the process for submitting [pull requests](https://github.com/jtanaeki/RideXpress/pulls). Proposals for changes and other issues specific to RideXpress can be found [here](https://github.com/jtanaeki/RideXpress/issues).

@@ -12,7 +12,7 @@ Your interest is appreciated in regards to contributing to PubHub!
 4. We merge it to the main branch for you.
 
 ## Making Proposals and Joining Discussions
-Before opening an issue, be sure to first browse current [issues](https://github.com/jtanaeki/PubHub/issues) and [discussions](https://github.com/jtanaeki/PubHub/discussions/1) that may be related to what you have in mind.
+Before opening an issue, be sure to first browse current [issues](https://github.com/jtanaeki/PubHub/issues) and [discussions](https://github.com/jtanaeki/PubHub/discussions) that may be related to what you have in mind.
 
 # Code of Conduct
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md).
